@@ -1,5 +1,5 @@
 /**
-*Ñ§ÉúÀà
+*Ñ§ï¿½ï¿½ï¿½ï¿½
 */
 public class Student {
 	private String name;
@@ -10,7 +10,11 @@ public class Student {
 	}
 	public Student(String name,int age) {
 		this.name = name;
-		this.age = age;
+		this.age = age;		
 	}
-	
+	for(int i =0;i<=10;i++)
+	{
+		Student.name = 'é‚“æ¨é’';
+		System.out.print(Student.name);
+	}
 }
