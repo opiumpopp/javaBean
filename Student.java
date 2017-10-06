@@ -1,20 +1,21 @@
 /**
-*ѧ����
-*/
+ * 
+ * @author Athena
+ *
+ */
 public class Student {
+	//姓名
 	private String name;
+	//年龄
 	private int age;
-
+	//无参构造
 	public Student() {
 
 	}
+	//有参构造
 	public Student(String name,int age) {
 		this.name = name;
 		this.age = age;		
 	}
-	for(int i =0;i<=10;i++)
-	{
-		Student.name = '邓杨青';
-		System.out.print(Student.name);
-	}
+	
 }
